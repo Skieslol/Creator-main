@@ -1,0 +1,27 @@
+{
+  "name": "creator-main",
+  "version": "0.0.1",
+  "description": "A Fortnite Private Server Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "!Sky!",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "events": "^3.3.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.15",
+    "path": "^0.12.7",
+    "prompt": "^1.1.0",
+    "promt": "^0.0.0",
+    "uuid": "^8.3.2",
+    "ws": "^7.5.0",
+    "xml-parser": "^1.2.1",
+    "xmlbuilder": "^15.1.1"
+  }
+}
