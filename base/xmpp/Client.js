@@ -3,8 +3,6 @@ const EventEmitter = require("events").EventEmitter
 const xmlparser = require('xml-parser')
 const xmlbuilder = require("xmlbuilder")
 
-const Friends = require(`${__dirname}/../../files/models/Friends`)
-
 module.exports = class Client extends EventEmitter {
     constructor(ws) {
         super()
