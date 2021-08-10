@@ -1656,7 +1656,7 @@ app.get("/content/api/pages/fortnite-game", async(req, res) => {
     } else season = 2
     DynamicBG = DBG
     if (DBG == "auto") {
-        DynamicBG = `season${season}`
+        DynamicBG = `winter19`
     }
     res.json({
         "jcr:isCheckedOut": true,
@@ -1669,21 +1669,17 @@ app.get("/content/api/pages/fortnite-game", async(req, res) => {
             news: {
                 motds: [{
                     entryType: "Website",
-                    image: "https://media.discordapp.net/attachments/835302046592270446/847286989123485706/3.png",
-                    tileImage: "https://media.discordapp.net/attachments/835302046592270446/847286989123485706/3.png",
                     hidden: false,
                     videoMute: false,
-                    tabTitleOverride: "Project Cloud",
+                    tabTitleOverride: "Welcome to Creator",
                     _type: "CommonUI Simple Message MOTD",
-                    body: "Welcome to CloudFN V2",
-                    title: "Cloud V2",
+                    body: "Welcome to Creator",
+                    title: "Creator",
                     videoLoop: false,
                     videoStreamingEnabled: false,
                     sortingPriority: 0,
                     id: `Cloud-News-0`,
-                    spotlight: false,
-                    websiteURL: "https://cloudfn.dev",
-                    websiteButtonText: "CloudFN Website"
+                    spotlight: false
                 }]
             },
             "jcr:isCheckedOut": true,
@@ -1705,8 +1701,8 @@ app.get("/content/api/pages/fortnite-game", async(req, res) => {
                     hidden: false,
                     _type: "CommonUI Simple Message Base",
                     subgame: "br",
-                    body: "Welcome to CloudFN V2",
-                    title: "Cloud V2",
+                    body: "Welcome to Creator",
+                    title: "Creator",
                     spotlight: true
                 }]
             },
@@ -1719,12 +1715,12 @@ app.get("/content/api/pages/fortnite-game", async(req, res) => {
             "jcr:isCheckedOut": true,
             backgrounds: {
                 backgrounds: [{
-                        stage: `season${season}`,
+                        stage: `winter19`,
                         _type: "DynamicBackground",
                         key: "lobby"
                     },
                     {
-                        stage: `season${season}`,
+                        stage: `winter19`,
                         _type: "DynamicBackground",
                         key: "vault"
                     }
